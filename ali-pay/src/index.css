@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+
+
+
+@font-face {
+    font-family: Mellow;
+    src: url(./assets/fonts/MADEMellowPERSONALUSE-Medium.otf);
+    font-style: normal;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Mellow ;
+    /* overflow-x:hidden !important; */
+}
+s
+.Poppins{
+
+    font-family: Poppins , sans-serif;
+}
+
+p , h3 , button , input , a{
+    font-family: Poppins , sans-serif !important;
+}
+
+
+
+.hero__bg{
+    background: url(./assets/gradients.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about__bg{
+    background: url(./assets/Eazi\ Wave.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+
+body{
+    overflow-x: hidden !important;
+}
