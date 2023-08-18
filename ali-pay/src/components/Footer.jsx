@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div
       style={{ borderTop: "1px solid gray" }}
-      className=" items-start min-h-[50vh] py-[1.5rem] border-top-2 px-[5rem] flex md:items-center flex-col md:flex-row"
+      className=" items-start min-h-[50vh] py-[1.5rem] border-top-2 md:px-[5rem] px-[2rem] flex md:items-center flex-col md:flex-row"
     >
       <div className="flex flex-col gap-10 md:gap-5">
         <img src={logo} alt="" className="h-[32px] w-[122px]" />

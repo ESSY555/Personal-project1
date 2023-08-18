@@ -11,7 +11,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="px-[5rem] relative  top-0 z-50  w-full py-5 flex space-between gap-5 items-center">
+    <div className="px-[2rem] md:px-[5rem] relative  top-0 z-50  w-full py-5 flex space-between gap-5 items-center">
       <div>
         <img src={logo} alt="" />
       </div>
@@ -42,8 +42,8 @@ const Navbar = () => {
         </div>
         <div className=" flex flex-col items-start gap-5 ">
           {" "}
-          <Link to={'/dashboard'} className="px-[4rem] Poppins rounded-full text-primary-green bg-white font-bold tracking-wide border-primary-green border-2 py-3">Log in</Link>
-          <Link to={'/dashboard'} className="px-[4rem] Poppins text-white shadow-md font-bold tracking-wide rounded-full bg-primary-green py-3">Register</Link>
+          <Link to={'/dashboard'} className=" Poppins rounded-full text-lg text-primary-green bg-white font-bold tracking-wide py-3">Log in</Link>
+          <Link to={'/dashboard'} className=" Poppins text-primary-green text-lg font-bold tracking-wide rounded-full  py-3">Register</Link>
         </div>
         </div>
       </div>
