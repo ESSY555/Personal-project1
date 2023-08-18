@@ -3,7 +3,7 @@ import { phone1, phonebg, vector, vector1 } from "../assets";
 
 const HowitWorks = () => {
   return (
-    <div className="min-h-[80vh] px-[5rem] py-[2rem] flex flex-col items-center text-center">
+    <div className="min-h-[80vh] px-[2rem] md:px-[5rem] py-[2rem] flex flex-col items-center text-center">
       <div className="mt-[2rem]">
         <h1 className="text-6xl text-primary-green">How Easipay Works</h1>
         <p className="mt-4 text-lg tracking-wide">
@@ -17,7 +17,7 @@ const HowitWorks = () => {
             alt=""
             className="absolute z-0 w-[500px] h-[500px] "
           />
-          <img src={phone1} alt="" className="w-[360px] h-[680px] z-30 " />
+          <img src={phone1} alt="" className="  w-[180px] h-[340px] md:w-[360px] md:h-[680px] z-30 " />
         </div>
         <div className="flex-1 ">
           <div className="flex flex-col items-start gap-14 relative px-10 ">

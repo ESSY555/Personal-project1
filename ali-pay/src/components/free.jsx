@@ -3,7 +3,7 @@ import {freeHero, freepoka} from '../assets'
 
 const Free = () => {
   return (
-    <div className='min-h-[60vh] -z-20 relative flex flex-col md:flex-row items-center px-[5rem] py-[2rem] w-full bg-[#FFE9E7]'>
+    <div className='min-h-[60vh] -z-20 relative flex flex-col md:flex-row items-center px-[2rem] md:px-[5rem] py-[2rem] w-full bg-[#FFE9E7]'>
       <div className='flex-1 mt-8 md:mt-0'>
         <h1 className='z-20 w-full text-4xl text-center md:text-left md:text-5xl tracking-wide leading-14 md:w-1/2 px-8 font-bold'>Free Forever for your <span className='text-red-400'>salary payments</span></h1>
         <p className='text-center md:text-left text-lg px-8 mt-8'>subscribe to easipay today</p>

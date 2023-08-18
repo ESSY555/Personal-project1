@@ -5,7 +5,7 @@ import {FaApple , FaGooglePlay} from 'react-icons/fa'
 
 const Hero = () => {
   return (
-    <div className="flex hero__bg px-[5rem] py-[2rem] items-center flex-col gap-[2rem] md:gap-0 md:flex-row w-full">
+    <div className="flex hero__bg px-[1.5rem] md:px-[5rem] py-[2rem] items-center flex-col gap-[2rem] md:gap-0 md:flex-row w-full">
       <div className="flex-1 w-full flex flex-col gap-[2rem] ">
         <div className="flex flex-col items-start w-full text-center md:w-3/4">
           <h1 className="text-6xl text-left text-black">
@@ -17,7 +17,7 @@ const Hero = () => {
             all at once.
           </p>
 
-          <button className="px-[4rem] mt-4 py-4 Poppins rounded-full bg-primary-green text-white">
+          <button className=" px-[2rem] md:px-[4rem] mt-4 py-4 Poppins rounded-full bg-primary-green text-white">
             Start Using Free, Forever
           </button>
         </div>

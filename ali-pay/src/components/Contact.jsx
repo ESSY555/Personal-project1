@@ -3,7 +3,7 @@ import { contactpoka, contactbg } from "../assets";
 
 const Contact = () => {
   return (
-    <div className="w-full flex flex-col px-[5rem] py-[2rem] md:flex-row items-center min-h-[80vh] relative">
+    <div className="w-full flex flex-col px-[2rem] md:px-[5rem] py-[2rem] md:flex-row items-center min-h-[80vh] relative">
       <div className="flex flex-col items-center mt-[6rem] md:mt-0">
         <h1 className="w-full text-5xl z-20 text-center md:text-left  md:text-5xl md:w-1/2 leading-normal text-primary-green">
           Get An Exclusive Demo of EaziPay

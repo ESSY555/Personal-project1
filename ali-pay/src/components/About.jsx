@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="about__bg py-[2rem] flex flex-col items-center justify-center  px-[5rem] min-h-[90vh] w-full overflow-x-hidden">
+    <div className="about__bg py-[2rem] flex flex-col items-center justify-center px-[1.5rem]  md:px-[5rem] min-h-[90vh] w-full overflow-x-hidden">
       <div>
         <h1 className="text-6xl font-bold  text-primary-green text-center">
           For Indiviual and Businesses
@@ -12,7 +12,7 @@ const About = () => {
         </p>
       </div>
       <div className="flex  flex-col gap-[2rem] md:gap-0 md:flex-row mt-4">
-        <div className="bg-primary-green shadow-xl flex-1 drop-shadow-xl text-white rounded-md flex flex-col gap-5 px-[3rem] py-6">
+        <div className="bg-primary-green shadow-xl flex-1 drop-shadow-xl text-white rounded-md flex flex-col gap-5 px-[1rem] md:px-[3rem] py-6">
           <h3 className="font-bold text-3xl">Tamper Proof Pay</h3>
           <p className="text-lg leading-10">
             Your staff payroll history is kept in one place forever.No more
@@ -20,7 +20,7 @@ const About = () => {
             you need it.
           </p>
         </div>
-        <div className="bg-primary-green ml-0 shadow-xl drop-shadow-lg md:-ml-48 flex-1 text-white rounded-md flex flex-col gap-5 px-[3rem] py-6">
+        <div className="bg-primary-green ml-0 shadow-xl drop-shadow-lg md:-ml-48 flex-1 text-white rounded-md flex flex-col gap-5 px-[1rem] md:px-[3rem] py-6">
           <h3 className="font-bold text-3xl">All Payroll, AnyTime</h3>
           <p className=" text-lg leading-8">
             Wherever you are Eazipay has got you covered on ALL your Payroll
@@ -31,7 +31,7 @@ const About = () => {
             handle all your compliamces in one place and easily, in seconds!
           </p>
         </div>
-        <div className="bg-primary-green ml-0 md:-ml-52 drop-shadow-xl shadow-xl flex-1 text-white rounded-md flex flex-col gap-5 px-[3rem] py-6 " >
+        <div className="bg-primary-green ml-0 md:-ml-52 drop-shadow-xl shadow-xl flex-1 text-white rounded-md flex flex-col px-[1rem] gap-5 md:px-[3rem] py-6 " >
           <h3 className="font-bold text-3xl">Payroll in Seconds</h3>
           <p className=" text-lg leading-10">Never again wil you spend more than 2 minutes on payroll.</p>
           <p className=" text-lg leading-10">Just click on your staff annd bulk-pay them at once.</p>
