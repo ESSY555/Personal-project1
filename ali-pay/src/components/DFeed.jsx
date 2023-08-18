@@ -9,7 +9,12 @@ import {
   search,
   filter,
   bglogo,
+  doc,
+  yellowm,
+  wifi,
+  bluep,
 } from "../assets";
+
 import { FaEye } from "react-icons/fa";
 
 const DFeed = () => {
@@ -33,7 +38,36 @@ const DFeed = () => {
               </button>
             </div>
           </div>
-          <div className="flex gap-8 items-center justify-between  my-6 w-full px-4 rounded-xl py-5">
+<div className="flex md:hidden flex-wrap py-4 px-3 border-2 justify-around items-center gap-[2rem] border-gray-200 rounded-xl">
+  <div className="flex w-[108px] h-[84px] flex-col gap-3 items-center">
+    <img src={dashCash} alt="" />
+    <p>Pay Sarlaries</p>
+  </div>
+  <div className="flex w-[108px] h-[84px] flex-col gap-3 items-center">
+    <img src={dashside} alt="" />
+    <p>Add Employee</p>
+  </div><div className="flex w-[108px] h-[84px] flex-col gap-3 items-center">
+    <img src={doc} alt="" />
+    <p>Send Payclips</p>
+  </div><div className="flex w-[108px] h-[84px] flex-col gap-3 items-center">
+    <img src={yellowm} alt="" />
+    <p>Edit Salaries</p>
+  </div><div className="flex w-[108px] h-[84px] flex-col gap-3 items-center">
+    <img src={dashreq} alt="" />
+    <p>Get a Loan</p>
+  </div><div className="flex w-[108px] h-[84px] flex-col gap-3 items-center">
+    <img src={dashf} alt="" />
+    <p>Make a Transfer</p>
+  </div><div className="flex w-[108px] h-[84px] flex-col gap-3 items-center">
+    <img src={bluep} alt="" />
+    <p>Airtime</p>
+  </div><div className="flex w-[108px] h-[84px] flex-col gap-3 items-center">
+    <img src={wifi} alt="" />
+    <p>Data</p>
+  </div>
+</div>
+
+          <div className=" hidden md:flex gap-8 items-center justify-between  my-6 w-full px-4 rounded-xl py-5">
             <div className="px-8 flex flex-col items-center text-center gap-3 py-3 rounded-lg shadow-md">
               <img src={dashside} alt="" />
               <p>Add Employee</p>
@@ -51,6 +85,8 @@ const DFeed = () => {
               <p>Quick Loan</p>
             </div>
           </div>
+
+
         </div>
         <div className="hidden md:block">
           <img src={Dashboard} className="w-[358px] h-[454px]" alt="" />

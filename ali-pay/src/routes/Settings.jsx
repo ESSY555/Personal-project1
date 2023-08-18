@@ -51,9 +51,12 @@ const Settings = () => {
         </div>
       </div>
       <div className="mb-[4rem] w-full">
-             <Ecards name={'Chika'} image={elipse} position={'Accountant'} gender={'male' }  amount={'N12,3455,666'}/>
-      <Ecards name={'Chika'} image={elipse} position={'Accountant'} gender={'male' }  amount={'N12,3455,666'}/>
-      <Ecards name={'Chika'} image={elipse} position={'Accountant'} gender={'male' }  amount={'N12,3455,666'}/>
+             <Ecards name={'Caleb Nwafor'} image={elipse} position={'Accountant'} gender={'Female' }  amount={'N12,3455,666'}/>
+      <Ecards name={'Wasiu Tamisyu'} image={elipse} position={'Product Designer'} gender={'male' }  amount={'N550,00 ,666'}/>
+      <Ecards name={'Toyin Falake'} image={elipse} position={'Product Manager'} gender={'Female' }  amount={'N770,990,666'}/>
+      <Ecards style={{background:'#f0f7eb'}} name={'Ada Okorie'} image={elipse} position={'Customer Service'} gender={'Female' }  amount={'N890,455,666'}/>
+      <Ecards style={{background:'#f0f7eb'}} name={'Bolade Ifedayo'} image={elipse} position={'Data Analyst'} gender={'male' }  amount={'N12,3455,666'}/>
+      <Ecards style={{background:'#f0f7eb'}} name={'Bolade Ifedayo'} image={elipse} position={'Data scientist'} gender={'male' }  amount={'N12,3455,666'}/>
       </div>
 
  

@@ -30,6 +30,10 @@ export { default as search } from "./search.png";
 export { default as filter } from "./filter.png";
 export { default as bglogo } from "./Frame 861.png";
 export { default as abstract } from "./abstract.png";
+export { default as yellowm } from "./Frame 48095758.png";
+export { default as bluep } from "./Group 948.png";
+export { default as wifi } from "./Group 949.png";
+
 
 
 

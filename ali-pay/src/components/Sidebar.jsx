@@ -34,10 +34,10 @@ const Sidebar = () => {
           style={{ borderTop: "1px solid gray" }}
           className="px-3 flex items-center justify-between gap-2 py-4"
         >
-          <div className="flex items-center gap-2">
+          <Link to="/employee" className="flex items-center gap-2">
             <img src={sidep} alt="" />
             <p>Employee Management</p>
-          </div>
+          </Link>
           <FaChevronDown />
         </div>
         <div
