@@ -41,7 +41,7 @@ const DFeed = () => {
 <div className="flex md:hidden flex-wrap py-4 px-3 border-2 justify-around items-center gap-[2rem] border-gray-200 rounded-xl">
   <div className="flex w-[108px] h-[84px] flex-col gap-3 items-center">
     <img src={dashCash} alt="" />
-    <p>Pay Sarlaries</p>
+    <p>Pay Salaries</p>
   </div>
   <div className="flex w-[108px] h-[84px] flex-col gap-3 items-center">
     <img src={dashside} alt="" />
