@@ -33,6 +33,8 @@ export { default as abstract } from "./abstract.png";
 export { default as yellowm } from "./Frame 48095758.png";
 export { default as bluep } from "./Group 948.png";
 export { default as wifi } from "./Group 949.png";
+export { default as payclip } from "./Frame 48095756.png";
+export { default as electricity } from "./Group 951.png";
 
 
 

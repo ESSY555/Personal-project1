@@ -15,7 +15,7 @@ const HowitWorks = () => {
           <img
             src={phonebg}
             alt=""
-            className="absolute z-0 w-[500px] h-[500px] "
+            className="absolute z-0 w-[250px] h-[250px] "
           />
           <img src={phone1} alt="" className="  w-[180px] h-[340px] md:w-[360px] md:h-[680px] z-30 " />
         </div>

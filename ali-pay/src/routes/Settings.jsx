@@ -29,10 +29,10 @@ const Settings = () => {
 
       <div className="mt-4 w-full flex gap-5 items-center">
         <div className="border-2 justify-between rounded-xl w-full pr-4 border-gray-300 flex items-center py-4">
-          <input type="text" className="text-lg px-4" placeholder="search" />
+          <input type="text" className="text-lg px-4 max-w-3/4 border-none outline-none bg-transparent" placeholder="search" />
           <FaSearch />
         </div>
-        <div className="py-4 px-6 rounded-md bg-gray-200">
+        <div className="hidden md:block py-4 px-6 rounded-md bg-gray-200">
           <FaFilter className="text-gray-400" />
         </div>
         <div></div>

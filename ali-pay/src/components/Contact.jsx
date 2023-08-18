@@ -22,7 +22,7 @@ const Contact = () => {
             We want to serve you better. Tell us a bit about yourself or company
           </p>
         </div>
-        <div className="w-full border-gray-200 border-2 bg-white gap-3 p-2 rounded-md flex items-center mt-4">
+        <div className="w-3/4 md:w-full border-gray-200 border-2 bg-white gap-3 p-2 rounded-md flex items-center mt-4">
           <button className="flex-1 bg-primary-green rounded-md py-2 text-center text-white">
             Indiviual
           </button>
@@ -30,7 +30,7 @@ const Contact = () => {
             Company
           </button>
         </div>
-        <div className="mt-6 flex flex-col items-center w-full gap-6">
+        <div className="mt-6 flex flex-col w-3/4 items-center md:w-full gap-6">
           <input type="text" placeholder="First Name" className="px-4 py-3 w-full rounded-lg border-gray-300 border-2 outline-none" />
           <input type="text" placeholder="First Name" className="px-4 py-3 w-full rounded-lg border-gray-300 border-2 outline-none" />
           <input type="email" placeholder="Email" className="px-4 py-3 w-full rounded-lg border-gray-300 border-2 outline-none" />

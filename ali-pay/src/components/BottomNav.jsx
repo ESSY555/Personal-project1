@@ -5,7 +5,7 @@ import {NavLink} from 'react-router-dom'
 
 const BottomNav = () => {
   return (
-    <div className="flex md:hidden fixed bottom-0 h-[9vh] left-0 right-0 px-3  items-center justify-between shadow-md bg-white">
+    <div className="flex md:hidden fixed bottom-0 h-[9vh] left-0 right-0   items-center justify-between shadow-md bg-white">
       <NavLink   to={'/dashboard'} className="group active:text-primary-green flex flex-col items-center gap-2">
         <FaHome className="group-active:text-primary-green" fontSize={30}  />
         <p className="group-active:text-primary-green">Home</p>

@@ -60,10 +60,10 @@ const Profiles = () => {
           </div>
           <div className="flex justify-between">
             <p
-              style={{ borderRight: "1px solid lightgray" }}
+              style={{ borderRight: "1px solid lightgray", textWrap:'balance' }}
               className="flex-1 text-center py-5  font-normal"
             >
-              Branch/Department
+              Branch/<br />Department
             </p>
             <p className="flex-1 text-center py-5  font-normal">
               {" "}
@@ -88,7 +88,7 @@ const Profiles = () => {
 
           <div className="mt-[4rem] flex flex-col w-full">
             <div className="border-2 px-4 py-5 relative border-primary-green  rounded-2xl">
-              <input type="text" placeholder="Joyona Travis" id="" />
+              <input className="max-w-3/4  border-none outline-none " type="text" placeholder="Joyona Travis" id="" />
               <p className="absolute -top-4 left-5 bg-white">Company Name</p>
             </div>
             <div className="flex flex-col mt-8 gap-5">
@@ -109,7 +109,7 @@ const Profiles = () => {
               <p>Jpeg and Png Only (2mb max)</p>
             </div>
             <div className="border-2 mt-[3rem] px-4 py-5 relative border-primary-green  rounded-2xl">
-              <input
+              <input className="max-w-3/4  border-none outline-none "
                 type="text"
                 placeholder="17, Simbiat Abiola Way, Ikeja"
                 id=""
@@ -124,31 +124,31 @@ const Profiles = () => {
               <p>eg. Nepa bills</p>
             </div>
             <div className="border-2 mt-[3rem] px-4 py-5 relative border-primary-green  rounded-2xl">
-              <input type="text" placeholder="100 and above" id="" />
+              <input className="max-w-3/4  border-none outline-none " type="text" placeholder="100 and above" id="" />
               <p className="absolute -top-4 left-5 bg-white">Company Size</p>
             </div>
             <div className="border-2 mt-[3rem] px-4 py-5 relative border-primary-green  rounded-2xl">
-              <input type="text" placeholder="100505" id="" />
+              <input className="max-w-3/4  border-none outline-none " type="text" placeholder="100505" id="" />
               <p className="absolute -top-4 left-5 bg-white">Pension Code</p>
             </div>
             <div className="border-2 mt-[3rem] px-4 py-5 relative border-primary-green  rounded-2xl">
-              <input type="text" placeholder="Lagos" id="" />
+              <input className="max-w-3/4  border-none outline-none " type="text" placeholder="Lagos" id="" />
               <p className="absolute -top-4 left-5 bg-white">Paye State</p>
             </div>
             <div className="border-2 mt-[3rem] px-4 py-5 relative border-primary-green  rounded-2xl">
-              <input type="text" placeholder="1010155" id="" />
+              <input className="max-w-3/4  border-none outline-none " type="text" placeholder="1010155" id="" />
               <p className="absolute -top-4 left-5 bg-white">Paye Id</p>
             </div>
             <div className="border-2 mt-[3rem] px-4 py-5 relative border-primary-green  rounded-2xl">
-              <input type="text" placeholder="1006678932" id="" />
+              <input className="max-w-3/4  border-none outline-none " type="text" placeholder="1006678932" id="" />
               <p className="absolute -top-4 left-5 bg-white">NHF Code</p>
             </div>
             <div className="border-2 mt-[3rem] px-4 py-5 relative border-primary-green  rounded-2xl">
-              <input type="text" placeholder="www.custormerwebsite.com" id="" />
+              <input className="max-w-3/4  border-none outline-none " type="text" placeholder="www.custormerwebsite.com" id="" />
               <p className="absolute -top-4 left-5 bg-white">Website</p>
             </div>
             <div className="border-2 mt-[3rem] px-4 py-5 relative border-primary-green  rounded-2xl">
-              <input type="text" placeholder="Travel and Tourism" id="" />
+              <input className="max-w-3/4  border-none outline-none " type="text" placeholder="Travel and Tourism" id="" />
               <p className="absolute -top-4 left-5 bg-white">Industry </p>
             </div>
             <div className="w-full mt-8 mb-6 flex gap-3">

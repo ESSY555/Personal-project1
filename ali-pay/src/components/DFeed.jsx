@@ -9,11 +9,13 @@ import {
   search,
   filter,
   bglogo,
-  doc,
+  payclip,
   yellowm,
   wifi,
   bluep,
+  electricity,
 } from "../assets";
+
 
 import { FaEye } from "react-icons/fa";
 
@@ -41,29 +43,33 @@ const DFeed = () => {
 <div className="flex md:hidden flex-wrap py-4 px-3 border-2 justify-around items-center gap-[2rem] border-gray-200 rounded-xl">
   <div className="flex w-[108px] h-[84px] flex-col gap-3 items-center">
     <img src={dashCash} alt="" />
-    <p>Pay Salaries</p>
+    <p  className="text-center font-medium">Pay Salaries</p>
   </div>
   <div className="flex w-[108px] h-[84px] flex-col gap-3 items-center">
     <img src={dashside} alt="" />
-    <p>Add Employee</p>
+    <p  className="text-center font-medium">Add Employee</p>
   </div><div className="flex w-[108px] h-[84px] flex-col gap-3 items-center">
-    <img src={doc} alt="" />
-    <p>Send Payclips</p>
+    <img src={payclip} alt="" />
+    <p  className="text-center font-medium">Send Payclips</p>
   </div><div className="flex w-[108px] h-[84px] flex-col gap-3 items-center">
     <img src={yellowm} alt="" />
-    <p>Edit Salaries</p>
+    <p  className="text-center font-medium">Edit Salaries</p>
   </div><div className="flex w-[108px] h-[84px] flex-col gap-3 items-center">
     <img src={dashreq} alt="" />
-    <p>Get a Loan</p>
+    <p  className="text-center font-medium">Get a Loan</p>
   </div><div className="flex w-[108px] h-[84px] flex-col gap-3 items-center">
     <img src={dashf} alt="" />
-    <p>Make a Transfer</p>
+    <p  className="text-center font-medium">Make a Transfer</p>
   </div><div className="flex w-[108px] h-[84px] flex-col gap-3 items-center">
     <img src={bluep} alt="" />
-    <p>Airtime</p>
+    <p  className="text-center font-medium">Airtime</p>
   </div><div className="flex w-[108px] h-[84px] flex-col gap-3 items-center">
     <img src={wifi} alt="" />
-    <p>Data</p>
+    <p  className="text-center font-medium">Data</p>
+  </div>
+  <div className="flex w-[108px] h-[84px] flex-col gap-3 items-center">
+    <img src={electricity} alt="" />
+    <p  className="text-center font-medium">Electricity</p>
   </div>
 </div>
 
@@ -108,7 +114,7 @@ const DFeed = () => {
               <img src={search} alt="" />
             </div>
           </div>
-          <div className="mt-5 bg-white px-3 py-4 border-2 border-gray-300 rounded-md shadow-md flex items-center gap-3">
+          <div className="hidden mt-5 bg-white px-3 py-4 border-2 border-gray-300 rounded-md shadow-md md:flex items-center gap-3">
             <p>filter</p>
             <img src={filter} alt="" />
           </div>
