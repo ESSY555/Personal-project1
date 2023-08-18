@@ -6,7 +6,7 @@ import {Ecards , BottomNav} from "../components";
 
 const Settings = () => {
   return (
-    <div className="flex flex-col mb-[1rem] items-center px-[4rem]">
+    <div className="flex flex-col mb-[1rem] items-center px-[2rem] md:px-[4rem]">
       <div
         style={{ borderBottom: "1px solid lightgray" }}
         className="py-5 px-3 "
